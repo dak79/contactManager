@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  background-color: black;
+  color: white;
+  box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.5);
+  margin: 1em;
+  padding: 0.5em;
+}
+
+section {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5em;
+  padding: 0.5em;
+  color: white;
+  background-color: black;
+  box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.5);
+}
+
+label {
+  margin: 0.2em;
+  padding: 0.2em;
+  font-weight: 700;
+}
+
+input {
+  margin: 0.2em;
+  padding: 0.2em;
+}
+
+input:focus,
+input:hover {
+  outline: 0.2em solid darkred;
+}
+
+button {
+  margin: 0.5em;
+  padding: 0.5em;
+  background-color: darkred;
+  color: white;
+  border: 0.1em solid white;
+}
+
+button:focus,
+button:hover {
+  outline: 0.2em solid white;
+}
+
+.notVisible {
+  display: none;
+}
+
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+li {
+  margin: 2em;
+  padding: 0.5em;
+}
+
+.contactList {
+  display: inline-block;
+}

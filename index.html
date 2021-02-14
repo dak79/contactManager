@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact Manager</title>
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <h1>Contact Manager</h1>
+      </header>
+      <section>
+        <label for="name">Name: </label>
+        <input type="text" id="name" placeholder="Name" />
+
+        <label for="surname">Surname: </label>
+        <input type="text" id="surname" placeholder="Surname" />
+
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" placeholder="+39 0000 0000000000" />
+      </section>
+      <section>
+        <button type="button" id="addCont">Add contact</button>
+        <button type="button" id="listCont">Contact List</button>
+      </section>
+      <section class="notVisible list">
+        <ul id="list"></ul>
+      </section>
+    </main>
+  </body>
+
+</html>
